@@ -15,3 +15,9 @@ for (let i = 0; i < sales.length; i++) {
 }; //calculating total sales (all 5 listed)
 console.log(`Sales Total: $${totalSales}`); //the display for total sales
 
+//Task 3: While Loop
+let stock = 10;
+while (stock >= 0) {
+    console.log(`Stock Number: ${stock}`);
+    stock --;
+}; //the stock will decrease by 1 until it reaches the value 0
