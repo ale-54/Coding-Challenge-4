@@ -28,3 +28,11 @@ do {
     console.log(`Collecting Responses: ${responses}`);
     responses ++;
 } while (responses <= 3); //collecting until it reaches three (3) responses
+
+//Task 5: For...In Loop
+let employee = {
+    name: "Alice", position: "Manager", salary: 75000
+}; //employee Alice information (name, position, and salary) as given in the assignment
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`); 
+}; //displaying employee information
