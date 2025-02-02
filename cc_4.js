@@ -36,3 +36,9 @@ let employee = {
 for (let key in employee) {
     console.log(`${key}: ${employee[key]}`); 
 }; //displaying employee information
+
+//Task 6: For...Of Loop
+let products = [`Karate Kid DVD`, `Jesus Candle`, `Magic: The Gathering Cards`]; //an array of at least 3 products
+for (let product of products) {
+    console.log(`Product: ${product}`);
+}; //displaying the products
