@@ -20,4 +20,11 @@ let stock = 10;
 while (stock >= 0) {
     console.log(`Stock Number: ${stock}`);
     stock --;
-}; //the stock will decrease by 1 until it reaches the value 0
+}; //the stock will decrease by 1 until it reaches the value zero (0)
+
+//Task 4: Do...While Loop
+let responses = 0;
+do {
+    console.log(`Collecting Responses: ${responses}`);
+    responses ++;
+} while (responses <= 3); //collecting until it reaches three (3) responses
