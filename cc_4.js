@@ -42,3 +42,9 @@ let products = [`Karate Kid DVD`, `Jesus Candle`, `Magic: The Gathering Cards`];
 for (let product of products) {
     console.log(`Product: ${product}`);
 }; //displaying the products
+
+//Task 7: forEach() Method
+let orders = [23, 58, 8490]; //order IDs
+orders.forEach(order => {
+    console.log(`Order ID: ${order}`);
+}); //displaying the order IDs 
