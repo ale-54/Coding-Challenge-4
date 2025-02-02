@@ -48,3 +48,10 @@ let orders = [23, 58, 8490]; //order IDs
 orders.forEach(order => {
     console.log(`Order ID: ${order}`);
 }); //displaying the order IDs 
+
+//Task 8: Function Declaration
+function calculateTax(amount, taxRate) {
+    return amount * taxRate;
+}; //calculating tax based on the amount
+let tax = calculateTax(158, .075);
+console.log(`Tax Amount: $${tax}`); //displaying the tax
